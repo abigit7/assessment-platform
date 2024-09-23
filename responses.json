@@ -1,0 +1,54 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Hi there", "Good morning"],
+      "responses": ["Hello!", "Hi!", "Hey!", "Hi there!"]
+    },
+      {
+          "tag": "",
+          "patterns": ["How are you?", "How are yu?", "how you doing?"],
+          "responses": ["I'm fine, thankyou", "I'm fine", "I'm fine, How are you?", "I'm good, Thanks for asking"]
+      },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later"],
+      "responses": ["Goodbye!", "Have a nice day!", "See you later!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Thanks a lot"],
+      "responses": ["You're welcome!", "No problem!", "My pleasure!"]
+    },
+    {
+      "tag": "about",
+      "patterns": ["Who are you?", "What can you do?", "What are you?"],
+      "responses": ["I am a chatbot.", "I can help you with various tasks.", "I'm a virtual assistant."]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What's your name?", "Do you have a name?", "Who named you?", "what is your name?"],
+      "responses": ["I'm a chatbot. You can call me liz.", "I'm Liz, your new personal chatbot."]
+    },
+    {
+      "tag": "age",
+      "patterns": ["How old are you?", "When were you born?", "What's your age?"],
+      "responses": ["I don't have an age. I'm just a computer program.", "I don't age. I'm here to assist you."]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Can you help me?", "I need assistance", "Help please", "help me","help" ],
+      "responses": ["Sure, I'd be happy to help.", "What do you need assistance with?", "I'm here to assist you."]
+    },
+      {
+      "tag": "Shop",
+      "patterns": ["Buy for me","where can i buy fruits?","Add flour to my bag"],
+      "responses": ["Sure", "I can buy that for you", "Check in related websites", "Check at amazon or other retail stores"]
+    },
+    {
+      "tag": "fallback",
+      "patterns": ["", "I don't know", "Not sure"],
+      "responses": ["I'm sorry, I don't understand.", "Could you please repeat that?", "I'm not sure I understand."]
+    }
+  ]
+}
