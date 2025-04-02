@@ -1,3 +1,5 @@
+This repository is created as part of the Hexaware Code & Rise Hackathon 🏆💡. It features my innovative solutions and technical expertise demonstrated during the competition
+
 # assessment-platform
 1. User Roles and Authentication:
 Roles: Admins, Instructors, Students/Participants.
